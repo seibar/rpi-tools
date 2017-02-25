@@ -16,8 +16,11 @@ node off
 ## Service installation (Optional)
 To install the init.d service and start it up. This service will turn on GPIO pin 17 when the pi starts up. The pin will turn off when the pi is about to shutdown.
 
+Note the first command should not be run as root.
+
 ```
-sudo bash setup.sh
+bash init-service.sh
+sudo bash setup-service.sh
 ```
 
 ### To start/stop the service manually.

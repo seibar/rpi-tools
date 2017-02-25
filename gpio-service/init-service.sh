@@ -1,3 +1,8 @@
+if [ "$EUID" -eq 0 ]
+  then echo "Do not run as root"
+  exit
+fi
+
 NODEPATH=$(which node)
 
 echo "#!/bin/sh
@@ -32,7 +37,4 @@ case \"\$1\" in
     exit 0
     ;;
 esac
-" > /etc/init.d/gpio17on.sh
-sudo chmod 755 /etc/init.d/gpio17on.sh
-update-rc.d gpio17on.sh defaults
-service gpio17on start
+" > gpio17on.sh
