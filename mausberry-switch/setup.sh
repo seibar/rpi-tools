@@ -1,7 +1,6 @@
-echo '#!/bin/bash
-
 # See: http://mausberry-circuits.myshopify.com/pages/setup
 
+echo '#!/bin/bash
 #this is the GPIO pin connected to the lead on switch labeled OUT
 GPIOpin1=23
 
