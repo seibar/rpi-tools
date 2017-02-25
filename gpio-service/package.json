@@ -1,0 +1,9 @@
+{
+  "name": "gpio-service",
+  "version": "0.0.1",
+  "author": "AJ Rabe <aj.rabe@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "onoff": "1.1.2"
+  }
+}
