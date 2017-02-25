@@ -26,5 +26,10 @@ sudo service gpio17on start
 sudo service gpio17on stop
 ```
 
+### To uninstall
+```
+sudo bash remove-service.sh
+```
+
 ## See also
 * Digital Loggers IoT relay: https://www.digital-loggers.com/iot.html
