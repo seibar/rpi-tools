@@ -20,11 +20,11 @@ echo "#!/bin/sh
 # Author: AJ Rabe <aj.rabe@gmail.com>
 
 do_start () {
-  $NODEPATH /home/pi/rpi-tools/gpio/on
+  $NODEPATH /home/pi/rpi-tools/gpio-service/on
 }
 
 do_stop () {
-  $NODEPATH /home/pi/rpi-tools/gpio/off
+  $NODEPATH /home/pi/rpi-tools/gpio-service/off
 }
 
 case \"\$1\" in
